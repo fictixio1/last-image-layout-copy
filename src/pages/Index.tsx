@@ -25,6 +25,35 @@ const Index = () => {
           @timessquaredog on X
         </p>
 
+
+        {/* Before Section */}
+        <div className="mb-12">
+          <h2 className="text-center text-foreground mb-6">
+            time square now:
+          </h2>
+          <div className="w-full">
+            <img 
+              src={timesSquareBefore} 
+              alt="Times Square before" 
+              className="w-full h-auto rounded-sm"
+            />
+          </div>
+        </div>
+
+        {/* After Section */}
+        <div className="mb-12">
+          <h2 className="text-center text-foreground mb-6">
+            time square after the dog:
+          </h2>
+          <div className="w-full">
+            <img 
+              src={timesSquareAfter} 
+              alt="Times Square after with dog" 
+              className="w-full h-auto rounded-sm"
+            />
+          </div>
+        </div>
+
         {/* About Section */}
         <div className="mb-16 px-4">
           <h2 className="text-center text-foreground text-lg mb-6">
@@ -71,38 +100,6 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Description */}
-        <p className="text-center text-foreground mb-16 px-4">
-          we are using 100% of the creator fees to put this dog on times square
-        </p>
-
-        {/* Before Section */}
-        <div className="mb-12">
-          <h2 className="text-center text-foreground mb-6">
-            time square now:
-          </h2>
-          <div className="w-full">
-            <img 
-              src={timesSquareBefore} 
-              alt="Times Square before" 
-              className="w-full h-auto rounded-sm"
-            />
-          </div>
-        </div>
-
-        {/* After Section */}
-        <div className="mb-12">
-          <h2 className="text-center text-foreground mb-6">
-            time square after the dog:
-          </h2>
-          <div className="w-full">
-            <img 
-              src={timesSquareAfter} 
-              alt="Times Square after with dog" 
-              className="w-full h-auto rounded-sm"
-            />
-          </div>
-        </div>
       </div>
     </main>
   );
