@@ -23,12 +23,12 @@ const Index = () => {
         {/* Social Handle */}
         <p className="text-center text-foreground mb-16">
           <a 
-            href="https://x.com/timessquaredog" 
+            href="https://x.com/timessquare_dog" 
             target="_blank" 
             rel="noopener noreferrer"
             className="underline hover:opacity-70 transition-opacity"
           >
-            @timessquaredog
+            @timessquare_dog
           </a>
           {" "}on X
         </p>
