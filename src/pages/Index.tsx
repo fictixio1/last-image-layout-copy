@@ -46,6 +46,26 @@ const Index = () => {
               </a>
             </p>
             <p>
+              we're also reaching out to{" "}
+              <a 
+                href="https://www.timessquarenyc.org/business-community/advertisement-sponsorships" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="underline hover:opacity-70 transition-opacity"
+              >
+                times square alliance
+              </a>
+              {" "}and{" "}
+              <a 
+                href="https://clearchanneloutdoor.com/where-we-are/times-square/#contact" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="underline hover:opacity-70 transition-opacity"
+              >
+                clear channel outdoor
+              </a>
+            </p>
+            <p>
               100% of creator fees go directly to putting this dog on as many screens as possible
             </p>
           </div>
