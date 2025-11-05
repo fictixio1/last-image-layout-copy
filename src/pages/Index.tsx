@@ -25,6 +25,32 @@ const Index = () => {
           @timessquaredog on X
         </p>
 
+        {/* About Section */}
+        <div className="mb-16 px-4">
+          <h2 className="text-center text-foreground text-lg mb-6">
+            how this will happen
+          </h2>
+          <div className="space-y-4 text-center text-foreground max-w-xl mx-auto">
+            <p>
+              we are planning to get as many billboards as we can in times square
+            </p>
+            <p>
+              billboard bookings start at just $150 through{" "}
+              <a 
+                href="https://timessquarebillboard.com/book-now/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="underline hover:opacity-70 transition-opacity"
+              >
+                timessquarebillboard.com
+              </a>
+            </p>
+            <p>
+              100% of creator fees go directly to putting this dog on as many screens as possible
+            </p>
+          </div>
+        </div>
+
         {/* Description */}
         <p className="text-center text-foreground mb-16 px-4">
           we are using 100% of the creator fees to put this dog on times square
